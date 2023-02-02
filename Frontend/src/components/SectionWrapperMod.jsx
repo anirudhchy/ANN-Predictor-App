@@ -76,7 +76,7 @@ const SectionWrapperMod = ({ title, description, techDescription, showBtn,
       text-center
       `}>
 
-            <button onClick={() => openInNewTab('https://github.com/xanirudh/AnnModelApp')} className={styles.btnPrimary}>
+            <button onClick={() => openInNewTab('https://github.com/xanirudh/ANN-Predictor-App')} className={styles.btnPrimary}>
               Source Code
             </button>
 

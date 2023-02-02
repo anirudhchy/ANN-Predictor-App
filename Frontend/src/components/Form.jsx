@@ -186,7 +186,7 @@ const Form = ({ handleShowModal }) => {
     arr[0] = (parseFloat(arr[0]) / 100).toString();
     arr[1] = (parseFloat(arr[1]) / 100).toString();
 
-    var apiUrl = `https://scalar-api.onrender.com/scale/?values=${arr[0]}/${arr[1]}/${arr[2]}/${arr[3]}/${arr[4]}/${arr[5]}/${arr[6]}/${arr[7]}/${arr[8]}/${arr[9]}/${arr[10]}/${arr[11]}/${arr[12]}/${arr[13]}/${arr[14]}/${arr[15]}/${arr[16]}/${arr[17]}`
+    var apiUrl = `https://ann-predictor-app-backend.onrender.com/scale/?values=${arr[0]}/${arr[1]}/${arr[2]}/${arr[3]}/${arr[4]}/${arr[5]}/${arr[6]}/${arr[7]}/${arr[8]}/${arr[9]}/${arr[10]}/${arr[11]}/${arr[12]}/${arr[13]}/${arr[14]}/${arr[15]}/${arr[16]}/${arr[17]}`
 
     pullJson()
 
